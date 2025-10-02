@@ -1,0 +1,5 @@
+title: "Branjournal"
+description: "Menulis untuk Bernapas"
+theme: none   
+paginate: 5   
+paginate_path: "/cerita/page:num"
