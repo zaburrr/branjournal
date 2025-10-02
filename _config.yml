@@ -1,5 +1,5 @@
 title: "Branjournal"
 description: "Menulis untuk Bernapas"
-theme: none   
-paginate: 5   
+theme: none   # karena kita pakai layout sendiri, bukan theme bawaan
+paginate: 5   # hanya 5 posting di halaman depan
 paginate_path: "/cerita/page:num"
