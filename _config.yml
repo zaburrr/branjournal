@@ -1,5 +1,24 @@
-title: "Branjournal"
-description: "Menulis untuk Bernapas"
-theme: none   # karena kita pakai layout sendiri, bukan theme bawaan
-paginate: 5   # hanya 5 posting di halaman depan
-paginate_path: "/cerita/page:num"
+# Info website
+title: "BranJournal"
+description: "Catatan perjalanan, tulisan, dan cerita sederhana."
+author: "Haidar Ahmad Zabran Aliyuddin"
+
+# Link utama (URL website)
+url: "https://zaburrr.github.io"
+baseurl: "/branjournal"   # nama repo kamu
+
+# Setting build
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Folder default Jekyll
+layouts_dir: _layouts
+includes_dir: _includes
+collections:
+  posts:
+    output: true
+
+# Plugin bawaan GitHub Pages (aman digunakan)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
