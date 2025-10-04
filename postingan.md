@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Cerita
+title: Postingan
 ---
 
-<h2>Semua Cerita</h2>
+<h2>Semua Postingan</h2>
 
 {% for post in site.posts %}
 <article class="post">
